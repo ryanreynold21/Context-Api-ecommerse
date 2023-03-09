@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
    <div className="navbar bg-base-300 p-3">
   <div className="flex-1">
+    <Link to={'/'}>
     <a className="btn btn-ghost normal-case text-xl">AKW-shop</a>
+    </Link>
   </div>
   <div className="flex-none gap-2">
     <div className="form-control">

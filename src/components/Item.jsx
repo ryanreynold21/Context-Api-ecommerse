@@ -11,7 +11,8 @@ const Item = ({item,increment,decrement}) => {
     }
     return (
     <>
-    <div className=' w-[60rem] mx-auto flex items-center justify-evenly border border-b-cyan-700 shadow-md shadow-lime-500/50 my-2 py-6'>
+    
+    <div className='w-[30rem] mx-auto flex items-center justify-evenly border border-b-cyan-700 shadow-md shadow-lime-500/50 my-2 py-6'>
       <div className="">
         <img src={image} className='h-32 w-32' alt="" />
         <h1 className='w-56'>{title}</h1>

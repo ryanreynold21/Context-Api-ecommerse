@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useStateContext } from '../context/StateContext'
 import Item from '../components/Item'
 import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
 
 const Cart = () => {
   const {state:{cart},dispatch} = useStateContext();
@@ -34,6 +35,7 @@ console.log(cart)
   }
   return (
     <div>
+      <Navbar />
        {!cart?.length && (
              <div className=" flex flex-col items-center justify-center p-10">
              <span className=' text-xl text-cyan-800'>Your Cart is empty !</span>
